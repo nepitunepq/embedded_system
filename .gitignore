@@ -1,0 +1,19 @@
+# Ignore ALL node_modules in the repo
+node_modules/
+
+# Ignore build outputs everywhere
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# Misc
+.DS_Store
